@@ -3,4 +3,5 @@ project(vortex_engine)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(vortex_engine main.cpp)
+add_executable(vortex_engine main.cpp
+        src/utils/defines.h)
